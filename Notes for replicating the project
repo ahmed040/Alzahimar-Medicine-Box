@@ -1,0 +1,4 @@
+You should print/use 0.5*0.5 square size for the chess cover. We tried bigger square sizes and they failed but we did not try to go below this size. It would be nice if you try and you found it gives better results. we would appreciate if you hare with us your experience.
+The algorithm does not work exclusively with cups. It can detect any object that is covered by black&white squares with the specific sizes we mentioned.
+Lighting conditions affect the performance to some extent. The best results were obtained when light intensity was uniform accross the room. However when a part of the cup is at spotlight or very bright stop, differentating between black and white becomes harder and the algorithm becomes less efficent.
+Serial communication was used to communicate with arduino using the pyserial library
